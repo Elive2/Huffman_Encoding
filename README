@@ -1,0 +1,11 @@
+to compile use 
+
+	make huffman
+
+to execute use
+
+	./huffman <sourcefile>.txt <outputfile>.z
+
+The program outputs the bit patterns it encodes each character with and the total number of bits required for the compression.
+
+The compressfile is created if it hasnt already been created. The file can be unpacked using th gunzip utility.
